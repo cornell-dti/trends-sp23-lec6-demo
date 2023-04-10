@@ -22,7 +22,6 @@ const IdentityPicker = () => {
   //   //API: "https://randomuser.me/api"
 
   // At page load, fetch users and set state once the data arrives
-  useEffect(() => {}, [])
 
   const summarizeUser = (user: UserData) => {
     if (!user) return "Hello!"
